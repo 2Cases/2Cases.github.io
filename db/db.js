@@ -71,66 +71,6 @@ export const projects = {
       preview: "https://clever-fermi-0d5d76.netlify.app",
       techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
     },
-    {
-      projectName: "Web Portfolio",
-      image: "images/portfolio.png",
-      summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
-    {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
-      summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
-  ],
-  softwareProjects: [
-    {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
-      summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
-    },
-    {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
-      summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
-    },
-    {
-      projectName: "Bill Generator",
-      image: "images/billgenerator.png",
-      summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
-    },
-  ],
-  androidProjects: [
-    {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
-      summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
-    },
-    {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
-      summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
-    },
   ],
   freelanceProjects: [
     {
@@ -201,10 +141,6 @@ export const footer = [
         text: "Print this page",
         func: "window.print()",
       },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
     ],
   },
   {
@@ -212,7 +148,7 @@ export const footer = [
     data: [
       {
         text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
+        link: "https://www.linkedin.com/in/estebancastaneda/",
       },
       {
         text: "Twitter",
