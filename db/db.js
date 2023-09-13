@@ -226,10 +226,7 @@ export const footer = [
   },
   {
     label: "copyright-text",
-    data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
-    ],
+    data: [],
   },
 ];
 
