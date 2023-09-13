@@ -1,6 +1,6 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
+  "I'm Esteban Castañeda, a Software Engineer at Justmet. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
   "Apart from coding, I love to read, listen to music, and travel.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thanks for taking the time to learn a little about me!",
@@ -154,49 +154,24 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
+    title: "Justmet",
+    duration: "Agoust 2023 - Present",
     subtitle: "Software Engineer",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      "Currently involved in developing healthcare products."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Golang", "K8s", "Docker", "Postgres"],
     icon: "heartbeat",
-  },
-  {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
-    ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
-  },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
   },
 ];
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
+    title: "Software Engeneer",
     duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    subtitle: "UTN Santa Fe, Argentina",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+      "",
     ],
     tags: [
       "Data Structures & Algorithms",
@@ -208,36 +183,12 @@ export const education = [
     ],
     icon: "graduation-cap",
   },
-  {
-    title: "Class 11-12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
-    ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
-  },
 ];
 
 export const footer = [
   {
     label: "Dev Profiles",
-    data: [
-      {
-        text: "Stackoverflow",
-        link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/vinaysomawat",
-      },
-      {
-        text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
-      },
-    ],
+    data: [],
   },
   {
     label: "Resources",
@@ -282,8 +233,8 @@ export const footer = [
   },
 ];
 
-const gitUserName = "vinaysomawat";
-const mediumUserName = "vinaysomawat";
+const gitUserName = "2Cases";
+const mediumUserName = "2Cases";
 
 export const URLs = {
   mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
